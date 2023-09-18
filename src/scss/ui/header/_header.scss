@@ -49,6 +49,7 @@
 
     &__heading {
 
+        text-align: center;
         @include m.tablet { 
             text-align: left;
         }
