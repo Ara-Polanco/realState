@@ -16,7 +16,11 @@
         @include m.grid(1, v.$separacion);
 
         @include m.tablet { 
-            @include m.grid(3, v.$separacion);    
+            @include m.grid(2, v.$separacion);   
+        }
+
+        @include m.desktop { 
+            @include m.grid(3, v.$separacion);   
         }
     }
 
@@ -24,7 +28,6 @@
 
 .propiedad {
     background-color: v.$blanco;
-
 
     &__imagen {
         aspect-ratio: 10 / 6;
